@@ -4,6 +4,10 @@ Gibt das Stargate Zitat der Woche aus
 
 ## Benutzung:
 
+### Manuell
+
+Einfach das Ruby-Skript ausführen.
+
 ```sh
 $ ruby sgquote.rb
 ```
@@ -21,3 +25,11 @@ $ ruby sgquote.rb -w 15
 ```
 
 Gibt das Stargate Zitat der Woche für die Kalenderwoche 15 aus. 
+
+### Per Docker
+
+Entweder Docker-Container mithilfe des Dockerfiles selbst bauen oder aus dem DockerHub beziehen.
+
+```sh
+docker run thehandsome/sgquote:1.0
+```
