@@ -28,8 +28,15 @@ Gibt das Stargate Zitat der Woche für die Kalenderwoche 15 aus.
 
 ### Per Docker
 
-Entweder Docker-Container mithilfe des Dockerfiles selbst bauen oder aus dem DockerHub beziehen.
+Wer Docker installiert hat aber keine passende Ruby Version kann das Programm in einem Container ausführen.
+Passendes run-script wird mitgeliefert.
 
 ```sh
-docker run thehandsome/sgquote:1.0
+./rundocker.sh
+```
+
+Die Kommandozeilenoptionen funktionieren weiterhin, z.B:
+
+```sh
+./rundocker.sh -n -w 20
 ```
