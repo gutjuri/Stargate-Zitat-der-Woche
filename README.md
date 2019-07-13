@@ -1,6 +1,6 @@
 # Stargate Zitat der Woche
 
-Gibt das Stargate Zitat der Woche aus
+Gibt das Stargate Zitat der Woche von [stargate-wiki.de](http://stargate-wiki.de/wiki/Hauptseite) aus.
 
 ## Benutzung:
 
